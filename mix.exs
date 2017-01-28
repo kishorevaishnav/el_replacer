@@ -27,6 +27,8 @@ defmodule ElReplacer.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:xlsxir, github: "kennellroxco/xlsxir"} 
+    ]
   end
 end
